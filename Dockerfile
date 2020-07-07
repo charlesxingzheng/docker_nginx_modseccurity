@@ -1,7 +1,7 @@
-FROM alpine:3.10
+FROM alpine:3.12
 MAINTAINER xingzheng <139819696@qq.com>
 
-ENV NGINX_VERSION 1.16.1
+ENV NGINX_VERSION 1.18.0
 
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g' /etc/apk/repositories \
         &&   GPG_KEYS=B0F4253373F8F6F510D42178520A9993A1C052F8 \
